@@ -1,0 +1,344 @@
+.order-button {
+  background-color: #01e2c2;
+  font-size: 1rem;
+  border: 0;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 1px;
+}
+
+html body li {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 0.7rem;
+  font-weight: 700;
+  font-style: normal;
+}
+html body .container-fluid {
+  justify-content: space-evenly;
+}
+html body h2 {
+  font-size: 4rem;
+}
+html body .profile-icon {
+  font-size: 2rem;
+  color: greenyellow;
+}
+html body .swirl-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+  background-image: url("./assets/images/swirl-img-div.jpg");
+  background-size: cover;
+}
+html body .extra-img-1-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./assets/images/extra-nando-img.webp");
+  background-size: cover;
+}
+html body .extra-img-2-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./assets/images/extra-nando-img-2.webp");
+  background-size: cover;
+}
+html body .overlay-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+html body .overlay-text h2 {
+  text-align: center;
+}
+html body #navbar-nav {
+  display: none;
+}
+html body #ham-navbar-nav li a {
+  font-size: 18px;
+  font-size: 1.125rem;
+  padding: 2.1875rem 0;
+  line-height: normal;
+  width: 100%;
+  position: relative;
+  display: block;
+  font-family: barlow, Helvetica, Arial, Geneva, sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+html body .c-content {
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+html body .c-content .nan-card .c-body {
+  padding: 2rem;
+}
+html body .c-content .nan-card .c-body .c-title {
+  font-size: 3rem;
+  font-weight: bold;
+  min-height: 5rem;
+}
+@media (min-width: 768px) {
+  html body .c-content .nan-card .c-body .c-title {
+    min-height: 13.5rem;
+  }
+}
+@media (min-width: 992px) {
+  html body .c-content .nan-card .c-body .c-title {
+    min-height: 9rem;
+  }
+}
+html body .c-content .nan-card .c-body .c-text {
+  padding: 0.1rem 0rem;
+  font-weight: 600;
+  min-height: 3rem;
+}
+@media (min-width: 768px) {
+  html body .c-content .nan-card .c-body .c-text {
+    min-height: 7rem;
+  }
+}
+html body .c-content .nan-card .c-body .btn-div {
+  padding: 1rem 0rem;
+}
+html body .reward-card-div .rev-card {
+  padding: 1rem;
+}
+@media (min-width: 768px) {
+  html body .reward-card-div .rev-card {
+    text-align: center;
+  }
+}
+html body .reward-card-div .rev-card .body {
+  padding: 0.5rem;
+}
+html body .reward-card-div .rev-card .body .title {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+@media (min-width: 992px) {
+  html body .reward-card-div .rev-card .body .title {
+    font-size: 2.25rem;
+  }
+}
+html body .reward-card-div .rev-card .body .text {
+  font-size: 1rem !important;
+}
+@media (min-width: 992px) {
+  html body .reward-card-div .rev-card .body .text {
+    font-style: 0.7rem !important;
+  }
+}
+html body .reward-card-div .img-div {
+  margin-right: 0.3rem;
+  height: 5rem;
+  width: 5rem !important;
+}
+@media (min-width: 768px) {
+  html body .reward-card-div .img-div {
+    margin-right: 0.5rem;
+  }
+}
+@media (min-width: 992px) {
+  html body .reward-card-div .img-div {
+    height: 7rem;
+    width: 7rem !important;
+  }
+}
+html body .reward-card-div .img-div img {
+  width: 100%;
+}
+html body .extra-nando-div .row .extra-img-1-div .extra-img-1 {
+  z-index: -1;
+}
+html body .extra-nando-div .row .extra-img-2-div .extra-img-2 {
+  z-index: -1;
+}
+html body #accordion-opened {
+  display: none;
+}
+html body .accordion-item {
+  border: none !important;
+}
+html body #accordion-opened {
+  background-color: #000000;
+  padding: 30px;
+}
+html body #accordion-opened .accordion .accordion-button:not(.collapsed) {
+  box-shadow: none;
+}
+html body #accordion-opened .accordion .accordion-button {
+  display: block;
+  color: white;
+  text-align: center;
+  background-color: #000000;
+  border: 0;
+}
+html body #accordion-opened .accordion .accordion-button::after {
+  display: none;
+}
+html body #accordion-opened .accordion .accordion-button {
+  box-shadow: none !important;
+}
+html body #accordion-opened .accordion .accordion-item {
+  border: none;
+  background-color: black;
+}
+html body #accordion-opened .accordion .accordion-body {
+  border: 0;
+  color: white;
+  text-align: center;
+  background-color: #000000;
+}
+html body #accordion-opened .accordion .accordion-body ul li {
+  font-size: 0.8rem;
+}
+html body #accordion-closed {
+  border-radius: 0px !important;
+}
+html body #accordion-closed .accordion-item {
+  background-color: #000000;
+  color: white;
+}
+html body #accordion-closed .accordion-button {
+  background-color: #000000;
+  color: white;
+}
+html body #accordion-closed .accordion-collapse {
+  background-color: #000000;
+  color: white;
+}
+html body .footer {
+  width: 100%;
+}
+html body .upper-footer {
+  height: 1.5rem;
+  width: 100%;
+  background-image: url("./assets/images/footer-bg.jpg");
+  background-repeat: repeat-x;
+}
+html body .lower-footer {
+  background-color: #1a1a1a;
+  color: white;
+}
+html body .lower-footer .app-downloads {
+  text-align: center;
+}
+html body .lower-footer .app-downloads h2 {
+  font-size: 3rem !important;
+}
+@media (min-width: 992px) {
+  html body .lower-footer .app-downloads {
+    text-align: left;
+  }
+  html body .lower-footer .app-downloads h2 {
+    font-size: 4rem !important;
+  }
+}
+html body .lower-footer .app-downloads__title {
+  margin-bottom: 0;
+}
+html body .downloads-button {
+  display: flex;
+  gap: 0.3rem;
+  justify-content: center;
+}
+@media (min-width: 992px) {
+  html body .downloads-button {
+    justify-content: start;
+  }
+}
+html body .downloads-button .appstore-div,
+html body .downloads-button .playstore-div {
+  margin: 0 0;
+  width: 8rem;
+  height: 2rem;
+}
+html body .downloads-button .appstore {
+  background-image: url("./assets/images/apple_badge.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+html body .downloads-button .playstore {
+  background-image: url("./assets/images/google_badge.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+html body .newsletter-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+html body .newsletter-cont .input-group {
+  width: 20rem;
+}
+html body .newsletter-cont h2 {
+  font-size: 3rem !important;
+}
+@media (min-width: 992px) {
+  html body .newsletter-cont {
+    align-items: start;
+    text-align: left;
+  }
+  html body .newsletter-cont h2 {
+    font-size: 4rem !important;
+  }
+}
+html body .footer-copyright {
+  text-align: center;
+}
+@media (min-width: 992px) {
+  html body .footer-copyright {
+    text-align: left;
+  }
+}
+html body .footer-copyright a {
+  color: white;
+}
+html body .socials ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+@media (min-width: 992px) {
+  html body .socials ul {
+    justify-content: space-evenly;
+  }
+}
+html body .socials ul li .social-icon {
+  font-size: 1rem;
+}
+@media (min-width: 992px) {
+  html body .socials ul li .social-icon {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  html body #navbar-nav {
+    display: flex;
+  }
+  html body #ham-navbar-nav {
+    display: none;
+  }
+  html body #accordion-opened {
+    display: flex;
+  }
+  html body #accordion-closed {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
