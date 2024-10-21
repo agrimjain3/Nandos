@@ -14,11 +14,6 @@ html body li {
   font-weight: 700;
   font-style: normal;
 }
-html body .navbar .navbarNav {
-  height: 95vh;
-  min-height: 20rem;
-  z-index: 100;
-}
 html body .navbar .container-fluid {
   justify-content: space-evenly;
 }
@@ -251,6 +246,7 @@ html body .accordion-item {
 html body #accordion-opened {
   background-color: #000000;
   padding: 30px;
+  font-family: 'font-family: "Barlow", sans-serif';
 }
 html body #accordion-opened .accordion .accordion-button:not(.collapsed) {
   box-shadow: none;
@@ -283,6 +279,7 @@ html body #accordion-opened .accordion .accordion-body ul li {
 }
 html body #accordion-closed {
   border-radius: 0px !important;
+  font-family: 'font-family: "Barlow", sans-serif';
 }
 html body #accordion-closed .accordion-item {
   background-color: #000000;
