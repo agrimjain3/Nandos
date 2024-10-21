@@ -25,11 +25,7 @@ html {
     }
 
     .navbar {
-      .navbarNav{
-        height: 95vh;
-        min-height: 20rem;
-        z-index: 100;
-      }
+      
       .container-fluid {
         justify-content: space-evenly;
       }
@@ -275,6 +271,7 @@ html {
     #accordion-opened {
       background-color: #000000;
       padding: 30px;
+      font-family: 'font-family: "Barlow", sans-serif';
       .accordion {
         .accordion-button:not(.collapsed) {
           box-shadow: none;
@@ -312,6 +309,8 @@ html {
 
     #accordion-closed {
       border-radius: 0px !important;
+      font-family: 'font-family: "Barlow", sans-serif';
+
       .accordion-item {
         background-color: #000000;
         color: white;
