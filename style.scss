@@ -24,8 +24,34 @@ html {
       font-style: normal;
     }
 
-    .container-fluid {
-      justify-content: space-evenly;
+    .navbar {
+      .container-fluid {
+        justify-content: space-evenly;
+      }
+      .small-logo {
+        display: block;
+      }
+      .big-logo {
+        display: none;
+      }
+
+      .nav-items-cont {
+        i {
+          font-size: 1.5rem;
+        }
+        .order-button {
+          font-size: 0.8rem;
+        }
+      }
+
+      @media (min-width: 768px) {
+        .small-logo {
+          display: none;
+        }
+        .big-logo {
+          display: block;
+        }
+      }
     }
 
     h2 {
@@ -59,30 +85,29 @@ html {
         min-height: 30rem;
         background-size: cover;
         background-repeat: no-repeat;
-        .carousel-text{
+        .carousel-text {
           margin-top: 8rem;
           text-align: center;
           color: white;
-          h5{
+          h5 {
             font-size: 2rem;
           }
-          p{
+          p {
             font-size: 1rem;
           }
-          .order-button{
+          .order-button {
             font-size: 0.5rem;
           }
           @media (min-width: 768px) {
             margin-top: 8rem;
-            h5{
+            h5 {
               font-size: 4rem;
             }
-            p{
+            p {
               font-size: 2rem;
             }
           }
         }
-
       }
       .item-1 {
         background-image: url("./assets/images/carousel-1.jpg");

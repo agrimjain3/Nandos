@@ -14,8 +14,28 @@ html body li {
   font-weight: 700;
   font-style: normal;
 }
-html body .container-fluid {
+html body .navbar .container-fluid {
   justify-content: space-evenly;
+}
+html body .navbar .small-logo {
+  display: block;
+}
+html body .navbar .big-logo {
+  display: none;
+}
+html body .navbar .nav-items-cont i {
+  font-size: 1.5rem;
+}
+html body .navbar .nav-items-cont .order-button {
+  font-size: 0.8rem;
+}
+@media (min-width: 768px) {
+  html body .navbar .small-logo {
+    display: none;
+  }
+  html body .navbar .big-logo {
+    display: block;
+  }
 }
 html body h2 {
   font-size: 4rem;
