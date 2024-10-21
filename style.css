@@ -40,11 +40,12 @@ html body #carouselExampleCaptions::after {
 }
 html body .carousel-inner .carousel-item {
   height: 70vh;
+  min-height: 30rem;
   background-size: cover;
   background-repeat: no-repeat;
 }
 html body .carousel-inner .carousel-item .carousel-text {
-  margin-top: 5rem;
+  margin-top: 8rem;
   text-align: center;
   color: white;
 }
@@ -54,9 +55,12 @@ html body .carousel-inner .carousel-item .carousel-text h5 {
 html body .carousel-inner .carousel-item .carousel-text p {
   font-size: 1rem;
 }
+html body .carousel-inner .carousel-item .carousel-text .order-button {
+  font-size: 0.5rem;
+}
 @media (min-width: 768px) {
   html body .carousel-inner .carousel-item .carousel-text {
-    margin-top: 10rem;
+    margin-top: 8rem;
   }
   html body .carousel-inner .carousel-item .carousel-text h5 {
     font-size: 4rem;

@@ -56,10 +56,11 @@ html {
     .carousel-inner {
       .carousel-item {
         height: 70vh;
+        min-height: 30rem;
         background-size: cover;
         background-repeat: no-repeat;
         .carousel-text{
-          margin-top: 5rem;
+          margin-top: 8rem;
           text-align: center;
           color: white;
           h5{
@@ -68,8 +69,11 @@ html {
           p{
             font-size: 1rem;
           }
+          .order-button{
+            font-size: 0.5rem;
+          }
           @media (min-width: 768px) {
-            margin-top: 10rem;
+            margin-top: 8rem;
             h5{
               font-size: 4rem;
             }
