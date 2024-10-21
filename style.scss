@@ -25,6 +25,11 @@ html {
     }
 
     .navbar {
+      .navbarNav{
+        height: 95vh;
+        min-height: 20rem;
+        z-index: 100;
+      }
       .container-fluid {
         justify-content: space-evenly;
       }

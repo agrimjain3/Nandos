@@ -14,6 +14,11 @@ html body li {
   font-weight: 700;
   font-style: normal;
 }
+html body .navbar .navbarNav {
+  height: 95vh;
+  min-height: 20rem;
+  z-index: 100;
+}
 html body .navbar .container-fluid {
   justify-content: space-evenly;
 }
