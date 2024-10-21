@@ -24,6 +24,56 @@ html body .profile-icon {
   font-size: 2rem;
   color: greenyellow;
 }
+html body #carouselExampleCaptions {
+  overflow: hidden;
+}
+html body #carouselExampleCaptions::after {
+  content: "";
+  display: block;
+  position: relative;
+  background-color: white;
+  width: 200%;
+  border-top: 0.4rem solid black;
+  transform: rotate(-3deg) translateX(-3rem);
+  bottom: 4.6rem;
+  height: 4.6rem;
+}
+html body .carousel-inner .carousel-item {
+  height: 70vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+html body .carousel-inner .carousel-item .carousel-text {
+  margin-top: 5rem;
+  text-align: center;
+  color: white;
+}
+html body .carousel-inner .carousel-item .carousel-text h5 {
+  font-size: 2rem;
+}
+html body .carousel-inner .carousel-item .carousel-text p {
+  font-size: 1rem;
+}
+@media (min-width: 768px) {
+  html body .carousel-inner .carousel-item .carousel-text {
+    margin-top: 10rem;
+  }
+  html body .carousel-inner .carousel-item .carousel-text h5 {
+    font-size: 4rem;
+  }
+  html body .carousel-inner .carousel-item .carousel-text p {
+    font-size: 2rem;
+  }
+}
+html body .carousel-inner .item-1 {
+  background-image: url("./assets/images/carousel-1.jpg");
+}
+html body .carousel-inner .item-2 {
+  background-image: url("./assets/images/carousel-2.jpg");
+}
+html body .carousel-inner .item-3 {
+  background-image: url("./assets/images/carousel-3.jpg");
+}
 html body .swirl-div {
   display: flex;
   flex-direction: column;
@@ -78,7 +128,6 @@ html body #ham-navbar-nav li a {
 }
 html body .c-content {
   margin-bottom: 5rem;
-  margin-top: 5rem;
 }
 html body .c-content .nan-card .c-body {
   padding: 2rem;

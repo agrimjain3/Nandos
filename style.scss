@@ -36,6 +36,61 @@ html {
       color: greenyellow;
     }
 
+    #carouselExampleCaptions {
+      overflow: hidden;
+    }
+
+    #carouselExampleCaptions::after {
+      content: "";
+      display: block;
+      position: relative;
+      background-color: white;
+      width: 200%;
+      border-top: 0.4rem solid black;
+      transform: rotate(-3deg) translateX(-3rem);
+      bottom: 4.6rem;
+      // background-color: white;
+      height: 4.6rem;
+    }
+
+    .carousel-inner {
+      .carousel-item {
+        height: 70vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        .carousel-text{
+          margin-top: 5rem;
+          text-align: center;
+          color: white;
+          h5{
+            font-size: 2rem;
+          }
+          p{
+            font-size: 1rem;
+          }
+          @media (min-width: 768px) {
+            margin-top: 10rem;
+            h5{
+              font-size: 4rem;
+            }
+            p{
+              font-size: 2rem;
+            }
+          }
+        }
+
+      }
+      .item-1 {
+        background-image: url("./assets/images/carousel-1.jpg");
+      }
+      .item-2 {
+        background-image: url("./assets/images/carousel-2.jpg");
+      }
+      .item-3 {
+        background-image: url("./assets/images/carousel-3.jpg");
+      }
+    }
+
     .swirl-div {
       @include swirl-div-struct();
       height: 95vh;
@@ -90,7 +145,6 @@ html {
 
     .c-content {
       margin-bottom: 5rem;
-      margin-top: 5rem;
       .nan-card {
         .c-body {
           padding: 2rem;
